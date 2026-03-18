@@ -4,6 +4,13 @@
   "y": 0,
   "uniqueID": "id-5310",
   "name": "Studio-press-table",
+  "ioValues": [
+    {
+      "name": "Leg_height",
+      "ioValue": 35,
+      "currentEquation": "35"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -19,19 +26,101 @@
       ]
     },
     {
-      "atomType": "Import",
-      "x": 0.2591036414565826,
-      "y": 0.6895522388059702,
-      "uniqueID": "id-5313",
-      "fileName": "28985T16_Hydraulic Scissor Jack.STEP",
-      "name": "Import",
-      "type": "STEP",
-      "repoOwner": "alzatin",
-      "repoName": "Studio-press-table",
-      "SVGwidth": 10
+      "atomType": "Molecule",
+      "x": 0.2051039697542533,
+      "y": 0.6149253731343284,
+      "uniqueID": "id-5324",
+      "name": "4x4post",
+      "ioValues": [
+        {
+          "name": "Leg_height",
+          "ioValue": 35
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-5326",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.17717086834733892,
+          "y": 0.5134328358208955,
+          "uniqueID": "id-5328",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 4
+            },
+            {
+              "name": "y length",
+              "ioValue": 4
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.13,
+          "uniqueID": "id-5335",
+          "name": "Leg_height",
+          "type": "number"
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.4229691876750701,
+          "y": 0.48358208955223886,
+          "uniqueID": "id-5338",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 35
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5328",
+          "ap2ID": "id-5338"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-5335",
+          "ap2ID": "id-5338"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.021449999999999997,
+      "y": 0.20298507462686566,
+      "uniqueID": "id-5332",
+      "name": "Leg_height"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "Leg_height",
+      "ap1ID": "id-5332",
+      "ap2ID": "id-5324"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
