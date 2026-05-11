@@ -9,6 +9,7 @@
 - **Leg_height** (number)
 - **table_width** (number)
 - **table_length** (number)
+- **Bottom_pl_height** (number)
 
 
 
