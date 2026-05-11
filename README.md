@@ -4,6 +4,13 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **Leg_height** (number)
+- **table_width** (number)
+- **table_length** (number)
+
+
 
 
  
