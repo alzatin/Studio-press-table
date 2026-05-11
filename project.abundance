@@ -2724,8 +2724,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.42627599243856334,
-          "y": 0.20121951219512196,
+          "x": 0.4272211720226843,
+          "y": 0.20731707317073172,
           "uniqueID": "id-5710",
           "ioValues": [
             {
@@ -2734,8 +2734,8 @@
             },
             {
               "name": "height",
-              "ioValue": 42,
-              "currentEquation": "table_length - 6"
+              "ioValue": 40,
+              "currentEquation": "table_length - 8"
             }
           ]
         },
@@ -2908,8 +2908,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.505671077504726,
-              "y": 0.3871951219512195,
+              "x": 0.5094517958412098,
+              "y": 0.4054878048780488,
               "uniqueID": "id-5834",
               "ioValues": [
                 {
@@ -2918,8 +2918,8 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -24,
-                  "currentEquation": "-table_length/2"
+                  "ioValue": -20,
+                  "currentEquation": "-table_length/2 + 4"
                 },
                 {
                   "name": "yDist",
