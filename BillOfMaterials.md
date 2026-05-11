@@ -2,5 +2,4 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Box fan|3|$0.00||
-|Total: |3|$0.00| |
+|Total: |0|$0.00| |
