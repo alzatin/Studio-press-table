@@ -88,8 +88,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6880907372400756,
-      "y": 0.6829268292682927,
+      "x": 0.6947069943289225,
+      "y": 0.8810975609756097,
       "uniqueID": "id-6074",
       "ioValues": [
         {
@@ -106,14 +106,15 @@
         },
         {
           "name": "zDist",
-          "ioValue": 19
+          "ioValue": 20.75,
+          "currentEquation": "Bottom_pl_height + 12"
         }
       ]
     },
     {
       "atomType": "Assembly",
-      "x": 0.7381852551984877,
-      "y": 0.45426829268292684,
+      "x": 0.7410207939508506,
+      "y": 0.47560975609756095,
       "uniqueID": "id-6115",
       "ioValues": [
         {
@@ -132,8 +133,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8383742911153119,
-      "y": 0.676829268292683,
+      "x": 0.8487712665406427,
+      "y": 0.6829268292682927,
       "uniqueID": "id-6127",
       "ioValues": [
         {
@@ -152,8 +153,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.24102079395085063,
-      "y": 0.6067073170731707,
+      "x": 0.24291115311909264,
+      "y": 0.6097560975609756,
       "uniqueID": "id-5413",
       "name": "F/B-braces",
       "ioValues": [
@@ -306,8 +307,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6247637051039697,
-          "y": 0.2865853658536585,
+          "x": 0.6219281663516067,
+          "y": 0.28353658536585363,
           "uniqueID": "id-5453",
           "ioValues": [
             {
@@ -326,8 +327,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 11.666666666666666,
-              "currentEquation": "Leg_height/3"
+              "ioValue": 8.75,
+              "currentEquation": "Bottom_pl_height"
             }
           ]
         },
@@ -1067,8 +1068,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.5113421550094518,
-      "y": 0.8201219512195123,
+      "x": 0.5103969754253308,
+      "y": 0.8353658536585366,
       "uniqueID": "id-6028",
       "name": "BOX_fan",
       "topLevel": false,
@@ -1404,7 +1405,7 @@
     {
       "atomType": "Molecule",
       "x": 0.3534971644612476,
-      "y": 0.6615853658536586,
+      "y": 0.6859756097560975,
       "uniqueID": "id-6080",
       "name": "bottom_platform",
       "ioValues": [
@@ -1511,8 +1512,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 13.666666666666666,
-              "currentEquation": "Leg_height/3 + 2"
+              "ioValue": 10.75,
+              "currentEquation": "Bottom_pl_height + 2"
             }
           ]
         },
