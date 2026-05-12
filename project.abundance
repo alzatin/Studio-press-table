@@ -113,8 +113,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6243567753001715,
-      "y": 0.36585365853658536,
+      "x": 0.5943396226415094,
+      "y": 0.39634146341463417,
       "uniqueID": "id-6115",
       "ioValues": [
         {
@@ -157,21 +157,6 @@
       "y": 0.44799999999999995,
       "uniqueID": "id-7789",
       "name": "Bottom_pl_height"
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.879073756432247,
-      "y": 0.34146341463414637,
-      "uniqueID": "id-8368",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Cutlist",
-      "global": true
     },
     {
       "atomType": "Molecule",
@@ -1606,455 +1591,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "x": 0.7281303602058319,
-      "y": 0.29878048780487804,
-      "uniqueID": "id-8304",
-      "name": "Cut-list",
-      "ioValues": [
-        {
-          "name": "Parts",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-8287",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
-          "uniqueID": "id-8288",
-          "name": "Parts",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.06089193825042882,
-          "y": 0.7652439024390244,
-          "uniqueID": "id-8289",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 85
-            },
-            {
-              "name": "y length",
-              "ioValue": 7
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.20154373927958835,
-          "y": 0.35060975609756095,
-          "uniqueID": "id-8290",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 1
-            }
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.5042881646655232,
-          "y": 0.27439024390243905,
-          "uniqueID": "id-8291",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.35334476843910806,
-          "y": 0.44817073170731714,
-          "uniqueID": "id-8292",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 20
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.23670668953687823,
-          "y": 0.5823170731707317,
-          "uniqueID": "id-8293",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 40
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Readme",
-          "x": 0.7615780445969125,
-          "y": 0.323170731707317,
-          "uniqueID": "id-8294",
-          "name": "README",
-          "ioValues": [
-            {
-              "name": "value",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "readMeText": "CUTLIST",
-          "global": true
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.1672384219554031,
-          "y": 0.8231707317073171,
-          "uniqueID": "id-8295",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 100
-            },
-            {
-              "name": "y length",
-              "ioValue": 100
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.3181818181818182,
-          "y": 0.7225609756097561,
-          "uniqueID": "id-8296",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 20
-            }
-          ]
-        },
-        {
-          "atomType": "Tag",
-          "x": 0.34991423670668953,
-          "y": 0.2103658536585366,
-          "uniqueID": "id-8297",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tags": [
-            ""
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.4142367066895368,
-          "y": 0.6189024390243902,
-          "uniqueID": "id-8298",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 20
-            },
-            {
-              "name": "yDist",
-              "ioValue": -300
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Code",
-          "x": 0.6475128644939966,
-          "y": 0.24695121951219512,
-          "uniqueID": "id-8299",
-          "ioValues": [
-            {
-              "name": "partAssembly",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "roundTo",
-              "ioValue": 2
-            },
-            {
-              "name": "sortBy",
-              "ioValue": "quantity",
-              "currentEquation": "quantity"
-            }
-          ],
-          "interpreterVersion": 1,
-          "code": "/**\n * Generates a cut list from all geometries in an assembly,\n * grouped by dimension and quantity.\n */\nfunction run(\n  partAssembly: Assembly | Assembly[] | undefined = undefined,\n  roundTo: number = 2,\n  sortBy: string = \"quantity\",\n): string {\n  if (!partAssembly) {\n    return \"No assembly connected. Please connect a geometry input.\";\n  }\n\n  // Normalize input to array\n  const assemblies = Array.isArray(partAssembly)\n    ? partAssembly\n    : [partAssembly];\n  // Extract all individual parts with their bounds\n  const grouped: Record<string, number> = {};\n  console.log(assemblies[0].geometry)\n  assemblies[0].geometry.forEach((assembly) => {\n    if (!assembly || !assembly.geometry) return;\n\n    try {\n      // Access boundingBox property on the geometry\n      console.log(assembly.geometry)\n      const bbox = assembly.geometry.boundingBox;\n      if (!bbox || !bbox.bounds) {\n        console.warn(\"No bounding box found for part\");\n        return;\n      }\n\n      // Extract dimensions from bounds\n      const minPoint = bbox.bounds[0];\n      const maxPoint = bbox.bounds[1];\n\n      const x = Math.abs(maxPoint[0] - minPoint[0]);\n      const y = Math.abs(maxPoint[1] - minPoint[1]);\n      const z = Math.abs(maxPoint[2] - minPoint[2]);\n\n      // Sort dimensions for consistency\n      const dims = [x, y, z]\n        .sort((a, b) => b - a)\n        .map((d) => d.toFixed(roundTo))\n        .join(\" × \");\n\n      grouped[dims] = (grouped[dims] || 0) + 1;\n    } catch (e) {\n      console.warn(\"Could not extract bounds for part:\", e);\n    }\n  });\n\n  if (Object.keys(grouped).length === 0) {\n    return \"No valid geometries found in assembly.\";\n  }\n\n  // Sort results\n  const sorted = Object.entries(grouped).sort((a, b) => {\n    if (sortBy === \"quantity\") {\n      return b[1] - a[1]; // Most common first\n    } else {\n      return a[0].localeCompare(b[0]); // Alphabetical\n    }\n  });\n\n  // Generate markdown table\n  let table =\n    \"| Dimensions (X × Y × Z) | Quantity |\\n|------------------------|----------|\\n\";\n  let totalParts = 0;\n\n  sorted.forEach(([dims, qty]) => {\n    table += `| ${dims} mm | ${qty} |\\n`;\n    totalParts += qty;\n  });\n\n  table += `\\n**Total Parts:** ${totalParts}`;\n  console.log(table)\n  return table;\n}",
-          "compiledCode": "\"use strict\";\n/**\n * Generates a cut list from all geometries in an assembly,\n * grouped by dimension and quantity.\n */\nfunction run(partAssembly = undefined, roundTo = 2, sortBy = \"quantity\") {\n    if (!partAssembly) {\n        return \"No assembly connected. Please connect a geometry input.\";\n    }\n    // Normalize input to array\n    const assemblies = Array.isArray(partAssembly)\n        ? partAssembly\n        : [partAssembly];\n    // Extract all individual parts with their bounds\n    const grouped = {};\n    console.log(assemblies[0].geometry);\n    assemblies[0].geometry.forEach((assembly) => {\n        if (!assembly || !assembly.geometry)\n            return;\n        try {\n            // Access boundingBox property on the geometry\n            console.log(assembly.geometry);\n            const bbox = assembly.geometry.boundingBox;\n            if (!bbox || !bbox.bounds) {\n                console.warn(\"No bounding box found for part\");\n                return;\n            }\n            // Extract dimensions from bounds\n            const minPoint = bbox.bounds[0];\n            const maxPoint = bbox.bounds[1];\n            const x = Math.abs(maxPoint[0] - minPoint[0]);\n            const y = Math.abs(maxPoint[1] - minPoint[1]);\n            const z = Math.abs(maxPoint[2] - minPoint[2]);\n            // Sort dimensions for consistency\n            const dims = [x, y, z]\n                .sort((a, b) => b - a)\n                .map((d) => d.toFixed(roundTo))\n                .join(\" × \");\n            grouped[dims] = (grouped[dims] || 0) + 1;\n        }\n        catch (e) {\n            console.warn(\"Could not extract bounds for part:\", e);\n        }\n    });\n    if (Object.keys(grouped).length === 0) {\n        return \"No valid geometries found in assembly.\";\n    }\n    // Sort results\n    const sorted = Object.entries(grouped).sort((a, b) => {\n        if (sortBy === \"quantity\") {\n            return b[1] - a[1]; // Most common first\n        }\n        else {\n            return a[0].localeCompare(b[0]); // Alphabetical\n        }\n    });\n    // Generate markdown table\n    let table = \"| Dimensions (X × Y × Z) | Quantity |\\n|------------------------|----------|\\n\";\n    let totalParts = 0;\n    sorted.forEach(([dims, qty]) => {\n        table += `| ${dims} mm | ${qty} |\\n`;\n        totalParts += qty;\n    });\n    table += `\\n**Total Parts:** ${totalParts}`;\n    console.log(table);\n    return table;\n}\n"
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.6269296740994854,
-          "y": 0.48780487804878053,
-          "uniqueID": "id-8300",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "Code",
-          "x": 0.83704974271012,
-          "y": 0.48780487804878053,
-          "uniqueID": "id-8301",
-          "ioValues": [
-            {
-              "name": "partAssembly",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "roundTo",
-              "ioValue": 2
-            },
-            {
-              "name": "sortBy",
-              "ioValue": "quantity",
-              "currentEquation": "quantity"
-            }
-          ],
-          "interpreterVersion": 1,
-          "code": "/**\n * Generates a cut list from all geometries in an assembly,\n * grouped by dimension and quantity. Handles deeply nested assemblies.\n */\nfunction run(\n  partAssembly: Assembly | Assembly[] | undefined = undefined,\n  roundTo: number = 2,\n  sortBy: string = \"quantity\",\n): string {\n  if (!partAssembly) {\n    return \"No assembly connected. Please connect a geometry input.\";\n  }\n\n  // Normalize input to array\n  const assemblies = Array.isArray(partAssembly)\n    ? partAssembly\n    : [partAssembly];\n\n  // Extract all individual parts with their bounds\n  const grouped: Record<string, number> = {};\n\n  // Recursively traverse nested assemblies to find all replicad geometry\n  function extractGeometries(obj: any): any[] {\n    if (!obj) return [];\n\n    // Skip strings\n    if (typeof obj === \"string\") {\n      return [];\n    }\n\n    // If this object has a boundingBox property, it's actual replicad geometry\n    if (obj.boundingBox && typeof obj.boundingBox === \"object\") {\n      return [obj];\n    }\n\n    // If this is an assembly (has geometry property), recurse into it\n    if (obj.geometry) {\n      const results: any[] = [];\n\n      // geometry can be an array of items or a single item\n      if (Array.isArray(obj.geometry)) {\n        for (const item of obj.geometry) {\n          results.push(...extractGeometries(item));\n        }\n      } else {\n        // Single geometry item\n        results.push(...extractGeometries(obj.geometry));\n      }\n      return results;\n    }\n\n    // If it's an array at top level, recurse into each element\n    if (Array.isArray(obj)) {\n      const results: any[] = [];\n      for (const item of obj) {\n        results.push(...extractGeometries(item));\n      }\n      return results;\n    }\n\n    return [];\n  }\n\n  // Process all assemblies\n  assemblies.forEach((assembly) => {\n    if (!assembly) return;\n\n    const geometries = extractGeometries(assembly.geometry);\n\n    geometries.forEach((geometry) => {\n      try {\n        const bbox = geometry.boundingBox;\n\n        // Validate boundingBox structure\n        if (\n          !bbox ||\n          typeof bbox !== \"object\" ||\n          !Array.isArray(bbox.bounds) ||\n          bbox.bounds.length !== 2\n        ) {\n          return;\n        }\n\n        // Extract dimensions from bounds\n        const minPoint = bbox.bounds[0];\n        const maxPoint = bbox.bounds[1];\n\n        if (\n          !Array.isArray(minPoint) ||\n          !Array.isArray(maxPoint) ||\n          minPoint.length < 3 ||\n          maxPoint.length < 3\n        ) {\n          return;\n        }\n\n        const x = Math.abs(maxPoint[0] - minPoint[0]);\n        const y = Math.abs(maxPoint[1] - minPoint[1]);\n        const z = Math.abs(maxPoint[2] - minPoint[2]);\n\n        // Sort dimensions for consistency\n        const dims = [x, y, z]\n          .sort((a, b) => b - a)\n          .map((d) => d.toFixed(roundTo))\n          .join(\" × \");\n\n        grouped[dims] = (grouped[dims] || 0) + 1;\n      } catch (e) {\n        console.warn(\"Could not extract bounds for geometry:\", e);\n      }\n    });\n  });\n\n  if (Object.keys(grouped).length === 0) {\n    return \"No valid geometries found in assembly.\";\n  }\n\n  // Sort results\n  const sorted = Object.entries(grouped).sort((a, b) => {\n    if (sortBy === \"quantity\") {\n      return b[1] - a[1]; // Most common first\n    } else {\n      return a[0].localeCompare(b[0]); // Alphabetical\n    }\n  });\n\n  // Generate markdown table\n  let table =\n    \"| Dimensions (X × Y × Z) | Quantity |\\n|------------------------|----------|\\n\";\n  let totalParts = 0;\n\n  sorted.forEach(([dims, qty]) => {\n    table += `| ${dims} mm | ${qty} |\\n`;\n    totalParts += qty;\n  });\n\n  table += `\\n**Total Parts:** ${totalParts}`;\n  console.log(table)\n  return table;\n}",
-          "compiledCode": "\"use strict\";\n/**\n * Generates a cut list from all geometries in an assembly,\n * grouped by dimension and quantity. Handles deeply nested assemblies.\n */\nfunction run(partAssembly = undefined, roundTo = 2, sortBy = \"quantity\") {\n    if (!partAssembly) {\n        return \"No assembly connected. Please connect a geometry input.\";\n    }\n    // Normalize input to array\n    const assemblies = Array.isArray(partAssembly)\n        ? partAssembly\n        : [partAssembly];\n    // Extract all individual parts with their bounds\n    const grouped = {};\n    // Recursively traverse nested assemblies to find all replicad geometry\n    function extractGeometries(obj) {\n        if (!obj)\n            return [];\n        // Skip strings\n        if (typeof obj === \"string\") {\n            return [];\n        }\n        // If this object has a boundingBox property, it's actual replicad geometry\n        if (obj.boundingBox && typeof obj.boundingBox === \"object\") {\n            return [obj];\n        }\n        // If this is an assembly (has geometry property), recurse into it\n        if (obj.geometry) {\n            const results = [];\n            // geometry can be an array of items or a single item\n            if (Array.isArray(obj.geometry)) {\n                for (const item of obj.geometry) {\n                    results.push(...extractGeometries(item));\n                }\n            }\n            else {\n                // Single geometry item\n                results.push(...extractGeometries(obj.geometry));\n            }\n            return results;\n        }\n        // If it's an array at top level, recurse into each element\n        if (Array.isArray(obj)) {\n            const results = [];\n            for (const item of obj) {\n                results.push(...extractGeometries(item));\n            }\n            return results;\n        }\n        return [];\n    }\n    // Process all assemblies\n    assemblies.forEach((assembly) => {\n        if (!assembly)\n            return;\n        const geometries = extractGeometries(assembly.geometry);\n        geometries.forEach((geometry) => {\n            try {\n                const bbox = geometry.boundingBox;\n                // Validate boundingBox structure\n                if (!bbox ||\n                    typeof bbox !== \"object\" ||\n                    !Array.isArray(bbox.bounds) ||\n                    bbox.bounds.length !== 2) {\n                    return;\n                }\n                // Extract dimensions from bounds\n                const minPoint = bbox.bounds[0];\n                const maxPoint = bbox.bounds[1];\n                if (!Array.isArray(minPoint) ||\n                    !Array.isArray(maxPoint) ||\n                    minPoint.length < 3 ||\n                    maxPoint.length < 3) {\n                    return;\n                }\n                const x = Math.abs(maxPoint[0] - minPoint[0]);\n                const y = Math.abs(maxPoint[1] - minPoint[1]);\n                const z = Math.abs(maxPoint[2] - minPoint[2]);\n                // Sort dimensions for consistency\n                const dims = [x, y, z]\n                    .sort((a, b) => b - a)\n                    .map((d) => d.toFixed(roundTo))\n                    .join(\" × \");\n                grouped[dims] = (grouped[dims] || 0) + 1;\n            }\n            catch (e) {\n                console.warn(\"Could not extract bounds for geometry:\", e);\n            }\n        });\n    });\n    if (Object.keys(grouped).length === 0) {\n        return \"No valid geometries found in assembly.\";\n    }\n    // Sort results\n    const sorted = Object.entries(grouped).sort((a, b) => {\n        if (sortBy === \"quantity\") {\n            return b[1] - a[1]; // Most common first\n        }\n        else {\n            return a[0].localeCompare(b[0]); // Alphabetical\n        }\n    });\n    // Generate markdown table\n    let table = \"| Dimensions (X × Y × Z) | Quantity |\\n|------------------------|----------|\\n\";\n    let totalParts = 0;\n    sorted.forEach(([dims, qty]) => {\n        table += `| ${dims} mm | ${qty} |\\n`;\n        totalParts += qty;\n    });\n    table += `\\n**Total Parts:** ${totalParts}`;\n    console.log(table);\n    return table;\n}\n"
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.5300171526586621,
-          "y": 0.6676829268292683,
-          "uniqueID": "id-8302",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.4425385934819897,
-          "y": 0.8323170731707318,
-          "uniqueID": "id-8303",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 200
-            },
-            {
-              "name": "yDist",
-              "ioValue": -300
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "partAssembly",
-          "ap1ID": "id-8288",
-          "ap2ID": "id-8301"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-8289",
-          "ap2ID": "id-8290"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-8290",
-          "ap2ID": "id-8292"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-8290",
-          "ap2ID": "id-8293"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-8290",
-          "ap2ID": "id-8297"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-8291",
-          "ap2ID": "id-8300"
-        },
-        {
-          "ap2Name": "partAssembly",
-          "ap1ID": "id-8291",
-          "ap2ID": "id-8299"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-8292",
-          "ap2ID": "id-8291"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-8293",
-          "ap2ID": "id-8291"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-8295",
-          "ap2ID": "id-8296"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-8296",
-          "ap2ID": "id-8298"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-8296",
-          "ap2ID": "id-8303"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-8297",
-          "ap2ID": "id-8291"
-        },
-        {
-          "ap2Name": "Shape 4",
-          "ap1ID": "id-8298",
-          "ap2ID": "id-8291"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-8298",
-          "ap2ID": "id-8302"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-8301",
-          "ap2ID": "id-8287"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-8302",
-          "ap2ID": "id-8300"
-        },
-        {
-          "ap2Name": "Shape 4",
-          "ap1ID": "id-8303",
-          "ap2ID": "id-8302"
-        }
-      ],
-      "parentRepo": {
-        "lastFoundGit": "2026-05-11T18:23:39.233Z",
-        "privateRepo": false,
-        "repoName": "Cut-list",
-        "dateCreated": "2026-03-31T16:54:06Z",
-        "readMe": "https://raw.githubusercontent.com/alzatin/Cut-list/master/README.md?sanitize=true",
-        "yyyy": 2026,
-        "topMoleculeID": "id-1",
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/alzatin/Cut-list",
-        "topics": [
-          "abundance-tool"
-        ],
-        "parentRepo": null,
-        "forks": 0,
-        "dateModified": "739747",
-        "ranking": 0,
-        "searchField": "cut-list alzatin  abundance-tool",
-        "owner": "alzatin",
-        "description": "",
-        "contentURL": "https://raw.githubusercontent.com/alzatin/Cut-list/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/alzatin/Cut-list/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "Unitless",
-      "fileTypeVersion": 1,
-      "lastReloadedFromGithubAt": 1778537045434
     },
     {
       "atomType": "Molecule",
@@ -3812,6 +3348,446 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.7555746140651801,
+      "y": 0.28353658536585363,
+      "uniqueID": "id-8947",
+      "name": "Cut-list",
+      "ioValues": [
+        {
+          "name": "Parts",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-8930",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.16,
+          "uniqueID": "id-8931",
+          "name": "Parts",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.06089193825042882,
+          "y": 0.7652439024390244,
+          "uniqueID": "id-8932",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 85
+            },
+            {
+              "name": "y length",
+              "ioValue": 7
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.20154373927958835,
+          "y": 0.35060975609756095,
+          "uniqueID": "id-8933",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5042881646655232,
+          "y": 0.27439024390243905,
+          "uniqueID": "id-8934",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.35334476843910806,
+          "y": 0.44817073170731714,
+          "uniqueID": "id-8935",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 20
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.23670668953687823,
+          "y": 0.5823170731707317,
+          "uniqueID": "id-8936",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 40
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.6569468267581475,
+          "y": 0.2682926829268293,
+          "uniqueID": "id-8937",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "CUTLIST",
+          "global": true
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.1672384219554031,
+          "y": 0.8231707317073171,
+          "uniqueID": "id-8938",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 100
+            },
+            {
+              "name": "y length",
+              "ioValue": 100
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3181818181818182,
+          "y": 0.7225609756097561,
+          "uniqueID": "id-8939",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 20
+            }
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.34991423670668953,
+          "y": 0.2103658536585366,
+          "uniqueID": "id-8940",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            ""
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4142367066895368,
+          "y": 0.6189024390243902,
+          "uniqueID": "id-8941",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 20
+            },
+            {
+              "name": "yDist",
+              "ioValue": -300
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.6269296740994854,
+          "y": 0.48780487804878053,
+          "uniqueID": "id-8942",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.7229845626072041,
+          "y": 0.42378048780487804,
+          "uniqueID": "id-8943",
+          "ioValues": [
+            {
+              "name": "partAssembly",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "roundTo",
+              "ioValue": 2
+            },
+            {
+              "name": "sortBy",
+              "ioValue": "quantity",
+              "currentEquation": "quantity"
+            }
+          ],
+          "interpreterVersion": 1,
+          "code": "/**\n * Generates a cut list from all geometries in an assembly,\n * grouped by dimension and quantity. Handles deeply nested assemblies.\n */\nfunction run(\n  partAssembly: Assembly | Assembly[] | undefined = undefined,\n  roundTo: number = 2,\n  sortBy: string = \"quantity\",\n): string {\n  if (!partAssembly) {\n    return \"No assembly connected. Please connect a geometry input.\";\n  }\n\n  // Normalize input to array\n  const assemblies = Array.isArray(partAssembly)\n    ? partAssembly\n    : [partAssembly];\n\n  // Extract all individual parts with their bounds\n  const grouped: Record<string, number> = {};\n\n  // Recursively traverse nested assemblies to find all replicad geometry\n  function extractGeometries(obj: any): any[] {\n    if (!obj) return [];\n\n    // Skip strings\n    if (typeof obj === \"string\") {\n      return [];\n    }\n\n    // If this object has a boundingBox property, it's actual replicad geometry\n    if (obj.boundingBox && typeof obj.boundingBox === \"object\") {\n      return [obj];\n    }\n\n    // If this is an assembly (has geometry property), recurse into it\n    if (obj.geometry) {\n      const results: any[] = [];\n\n      // geometry can be an array of items or a single item\n      if (Array.isArray(obj.geometry)) {\n        for (const item of obj.geometry) {\n          results.push(...extractGeometries(item));\n        }\n      } else {\n        // Single geometry item\n        results.push(...extractGeometries(obj.geometry));\n      }\n      return results;\n    }\n\n    // If it's an array at top level, recurse into each element\n    if (Array.isArray(obj)) {\n      const results: any[] = [];\n      for (const item of obj) {\n        results.push(...extractGeometries(item));\n      }\n      return results;\n    }\n\n    return [];\n  }\n\n  // Process all assemblies\n  assemblies.forEach((assembly) => {\n    if (!assembly) return;\n\n    const geometries = extractGeometries(assembly.geometry);\n\n    geometries.forEach((geometry) => {\n      try {\n        const bbox = geometry.boundingBox;\n\n        // Validate boundingBox structure\n        if (\n          !bbox ||\n          typeof bbox !== \"object\" ||\n          !Array.isArray(bbox.bounds) ||\n          bbox.bounds.length !== 2\n        ) {\n          return;\n        }\n\n        // Extract dimensions from bounds\n        const minPoint = bbox.bounds[0];\n        const maxPoint = bbox.bounds[1];\n\n        if (\n          !Array.isArray(minPoint) ||\n          !Array.isArray(maxPoint) ||\n          minPoint.length < 3 ||\n          maxPoint.length < 3\n        ) {\n          return;\n        }\n\n        const x = Math.abs(maxPoint[0] - minPoint[0]);\n        const y = Math.abs(maxPoint[1] - minPoint[1]);\n        const z = Math.abs(maxPoint[2] - minPoint[2]);\n\n        // Sort dimensions for consistency\n        const dims = [x, y, z]\n          .sort((a, b) => b - a)\n          .map((d) => d.toFixed(roundTo))\n          .join(\" × \");\n\n        grouped[dims] = (grouped[dims] || 0) + 1;\n      } catch (e) {\n        console.warn(\"Could not extract bounds for geometry:\", e);\n      }\n    });\n  });\n\n  if (Object.keys(grouped).length === 0) {\n    return \"No valid geometries found in assembly.\";\n  }\n\n  // Sort results\n  const sorted = Object.entries(grouped).sort((a, b) => {\n    if (sortBy === \"quantity\") {\n      return b[1] - a[1]; // Most common first\n    } else {\n      return a[0].localeCompare(b[0]); // Alphabetical\n    }\n  });\n\n  // Generate markdown table\n  let table =\n    \"| Dimensions (X × Y × Z) | Quantity |\\n|------------------------|----------|\\n\";\n  let totalParts = 0;\n\n  sorted.forEach(([dims, qty]) => {\n    table += `| ${dims} mm | ${qty} |\\n`;\n    totalParts += qty;\n  });\n\n  table += `\\n**Total Parts:** ${totalParts}`;\n  console.log(table)\n  return table;\n}",
+          "compiledCode": "\"use strict\";\n/**\n * Generates a cut list from all geometries in an assembly,\n * grouped by dimension and quantity. Handles deeply nested assemblies.\n */\nfunction run(partAssembly = undefined, roundTo = 2, sortBy = \"quantity\") {\n    if (!partAssembly) {\n        return \"No assembly connected. Please connect a geometry input.\";\n    }\n    // Normalize input to array\n    const assemblies = Array.isArray(partAssembly)\n        ? partAssembly\n        : [partAssembly];\n    // Extract all individual parts with their bounds\n    const grouped = {};\n    // Recursively traverse nested assemblies to find all replicad geometry\n    function extractGeometries(obj) {\n        if (!obj)\n            return [];\n        // Skip strings\n        if (typeof obj === \"string\") {\n            return [];\n        }\n        // If this object has a boundingBox property, it's actual replicad geometry\n        if (obj.boundingBox && typeof obj.boundingBox === \"object\") {\n            return [obj];\n        }\n        // If this is an assembly (has geometry property), recurse into it\n        if (obj.geometry) {\n            const results = [];\n            // geometry can be an array of items or a single item\n            if (Array.isArray(obj.geometry)) {\n                for (const item of obj.geometry) {\n                    results.push(...extractGeometries(item));\n                }\n            }\n            else {\n                // Single geometry item\n                results.push(...extractGeometries(obj.geometry));\n            }\n            return results;\n        }\n        // If it's an array at top level, recurse into each element\n        if (Array.isArray(obj)) {\n            const results = [];\n            for (const item of obj) {\n                results.push(...extractGeometries(item));\n            }\n            return results;\n        }\n        return [];\n    }\n    // Process all assemblies\n    assemblies.forEach((assembly) => {\n        if (!assembly)\n            return;\n        const geometries = extractGeometries(assembly.geometry);\n        geometries.forEach((geometry) => {\n            try {\n                const bbox = geometry.boundingBox;\n                // Validate boundingBox structure\n                if (!bbox ||\n                    typeof bbox !== \"object\" ||\n                    !Array.isArray(bbox.bounds) ||\n                    bbox.bounds.length !== 2) {\n                    return;\n                }\n                // Extract dimensions from bounds\n                const minPoint = bbox.bounds[0];\n                const maxPoint = bbox.bounds[1];\n                if (!Array.isArray(minPoint) ||\n                    !Array.isArray(maxPoint) ||\n                    minPoint.length < 3 ||\n                    maxPoint.length < 3) {\n                    return;\n                }\n                const x = Math.abs(maxPoint[0] - minPoint[0]);\n                const y = Math.abs(maxPoint[1] - minPoint[1]);\n                const z = Math.abs(maxPoint[2] - minPoint[2]);\n                // Sort dimensions for consistency\n                const dims = [x, y, z]\n                    .sort((a, b) => b - a)\n                    .map((d) => d.toFixed(roundTo))\n                    .join(\" × \");\n                grouped[dims] = (grouped[dims] || 0) + 1;\n            }\n            catch (e) {\n                console.warn(\"Could not extract bounds for geometry:\", e);\n            }\n        });\n    });\n    if (Object.keys(grouped).length === 0) {\n        return \"No valid geometries found in assembly.\";\n    }\n    // Sort results\n    const sorted = Object.entries(grouped).sort((a, b) => {\n        if (sortBy === \"quantity\") {\n            return b[1] - a[1]; // Most common first\n        }\n        else {\n            return a[0].localeCompare(b[0]); // Alphabetical\n        }\n    });\n    // Generate markdown table\n    let table = \"| Dimensions (X × Y × Z) | Quantity |\\n|------------------------|----------|\\n\";\n    let totalParts = 0;\n    sorted.forEach(([dims, qty]) => {\n        table += `| ${dims} mm | ${qty} |\\n`;\n        totalParts += qty;\n    });\n    table += `\\n**Total Parts:** ${totalParts}`;\n    console.log(table);\n    return table;\n}\n"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5300171526586621,
+          "y": 0.6676829268292683,
+          "uniqueID": "id-8944",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4425385934819897,
+          "y": 0.8323170731707318,
+          "uniqueID": "id-8945",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 200
+            },
+            {
+              "name": "yDist",
+              "ioValue": -300
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.8610634648370497,
+          "y": 0.7164634146341463,
+          "uniqueID": "id-8946",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "CUTLIST",
+          "global": true
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "partAssembly",
+          "ap1ID": "id-8931",
+          "ap2ID": "id-8943"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8932",
+          "ap2ID": "id-8933"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8933",
+          "ap2ID": "id-8935"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8933",
+          "ap2ID": "id-8936"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8933",
+          "ap2ID": "id-8940"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-8934",
+          "ap2ID": "id-8942"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-8935",
+          "ap2ID": "id-8934"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-8936",
+          "ap2ID": "id-8934"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8938",
+          "ap2ID": "id-8939"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8939",
+          "ap2ID": "id-8941"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8939",
+          "ap2ID": "id-8945"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-8940",
+          "ap2ID": "id-8934"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-8941",
+          "ap2ID": "id-8934"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-8941",
+          "ap2ID": "id-8944"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-8943",
+          "ap2ID": "id-8930"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-8943",
+          "ap2ID": "id-8946"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-8944",
+          "ap2ID": "id-8942"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-8945",
+          "ap2ID": "id-8944"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-05-11T18:23:39.233Z",
+        "privateRepo": false,
+        "repoName": "Cut-list",
+        "dateCreated": "2026-03-31T16:54:06Z",
+        "readMe": "https://raw.githubusercontent.com/alzatin/Cut-list/master/README.md?sanitize=true",
+        "yyyy": 2026,
+        "topMoleculeID": "id-1",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Cut-list",
+        "topics": [
+          "abundance-tool"
+        ],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739747",
+        "ranking": 0,
+        "searchField": "cut-list alzatin  abundance-tool",
+        "owner": "alzatin",
+        "description": "",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Cut-list/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Cut-list/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1778594473096
     }
   ],
   "allConnectors": [
@@ -3903,7 +3879,7 @@
     {
       "ap2Name": "Parts",
       "ap1ID": "id-6115",
-      "ap2ID": "id-8304"
+      "ap2ID": "id-8947"
     },
     {
       "ap2Name": "Shape 12",
@@ -3934,11 +3910,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-6080",
       "ap2ID": "id-6115"
-    },
-    {
-      "ap2Name": "value",
-      "ap1ID": "id-8304",
-      "ap2ID": "id-8368"
     },
     {
       "ap2Name": "Shape 1",
