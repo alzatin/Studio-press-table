@@ -113,8 +113,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.554228855721393,
-      "y": 0.4268292682926829,
+      "x": 0.5174129353233831,
+      "y": 0.4451219512195122,
       "uniqueID": "id-6115",
       "ioValues": [
         {
@@ -3791,8 +3791,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7701492537313432,
-      "y": 0.38109756097560976,
+      "x": 0.7890547263681592,
+      "y": 0.3475609756097561,
       "uniqueID": "id-9504",
       "ioValues": [
         {
@@ -3810,11 +3810,41 @@
         },
         {
           "name": "Part Name",
+          "ioValue": "Table Cut List ",
+          "currentEquation": "Table Cut List "
+        }
+      ],
+      "type": "TXT",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Table Cut List "
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6079601990049751,
+      "y": 0.5823170731707317,
+      "uniqueID": "id-9510",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
           "ioValue": "Studio-press-table",
           "currentEquation": "Studio-press-table"
         }
       ],
-      "type": "TXT",
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Studio-press-table"
@@ -3910,6 +3940,11 @@
       "ap2Name": "Parts",
       "ap1ID": "id-6115",
       "ap2ID": "id-8947"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6115",
+      "ap2ID": "id-9510"
     },
     {
       "ap2Name": "Shape 12",
