@@ -19,8 +19,8 @@
     },
     {
       "name": "Bottom_pl_height",
-      "ioValue": 8.75,
-      "currentEquation": "Leg_height/4"
+      "ioValue": 7,
+      "currentEquation": "Leg_height/5"
     }
   ],
   "topLevel": true,
@@ -106,7 +106,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 20.75,
+          "ioValue": 19,
           "currentEquation": "Bottom_pl_height + 12"
         }
       ]
@@ -367,7 +367,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 8.75,
+              "ioValue": 7,
               "currentEquation": "Bottom_pl_height"
             }
           ]
@@ -394,7 +394,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 8.75,
+              "ioValue": 7,
               "currentEquation": "Bottom_pl_height"
             }
           ]
@@ -1579,7 +1579,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 10.75,
+              "ioValue": 9,
               "currentEquation": "Bottom_pl_height + 2"
             }
           ]
@@ -2996,7 +2996,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 8.75,
+                  "ioValue": 7,
                   "currentEquation": "Bottom_pl_height"
                 }
               ]
@@ -3023,7 +3023,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 8.75,
+                  "ioValue": 7,
                   "currentEquation": "Bottom_pl_height"
                 }
               ]
@@ -3159,7 +3159,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 8.75,
+                  "ioValue": 7,
                   "currentEquation": "Bottom_pl_height"
                 }
               ]
@@ -3186,7 +3186,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 8.75,
+                  "ioValue": 7,
                   "currentEquation": "Bottom_pl_height"
                 }
               ]
@@ -3422,7 +3422,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 8.75,
+              "ioValue": 7,
               "currentEquation": "Bottom_pl_height"
             }
           ]
