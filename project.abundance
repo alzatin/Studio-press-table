@@ -95,8 +95,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6320754716981133,
-      "y": 0.774390243902439,
+      "x": 0.6610284167794317,
+      "y": 0.7439024390243902,
       "uniqueID": "id-6074",
       "ioValues": [
         {
@@ -144,8 +144,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8254397834912043,
-      "y": 0.6615853658536586,
+      "x": 0.7774018944519622,
+      "y": 0.5853658536585367,
       "uniqueID": "id-6127",
       "ioValues": [
         {
@@ -1146,8 +1146,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.5103969754253308,
-      "y": 0.8353658536585366,
+      "x": 0.5223274695534507,
+      "y": 0.6707317073170731,
       "uniqueID": "id-6028",
       "name": "BOX_fan",
       "topLevel": false,
@@ -4013,6 +4013,228 @@
       "y": 0.5439999999999999,
       "uniqueID": "id-10087",
       "name": "ply_thick"
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.8179972936400541,
+      "y": 0.8445121951219513,
+      "uniqueID": "id-10119",
+      "name": "Dimension_Label",
+      "ioValues": [
+        {
+          "name": "Ending_Point_",
+          "ioValue": [
+            10,
+            0,
+            30
+          ]
+        },
+        {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-10111",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.16,
+          "uniqueID": "id-10112",
+          "name": "Starting_Point",
+          "type": "point3d",
+          "pointValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.256,
+          "uniqueID": "id-10113",
+          "name": "Ending_Point_",
+          "type": "point3d",
+          "pointValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "atomType": "Label",
+          "x": 0.7070979335130279,
+          "y": 0.5335365853658537,
+          "uniqueID": "id-10114",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "text",
+              "ioValue": "Dist: NaN",
+              "currentEquation": "label"
+            },
+            {
+              "name": "endPosition",
+              "ioValue": [
+                10,
+                0,
+                30
+              ]
+            },
+            {
+              "name": "color",
+              "ioValue": "#3F3CDD",
+              "currentEquation": "#3F3CDD"
+            },
+            {
+              "name": "fontSize",
+              "ioValue": 40
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.352,
+          "uniqueID": "id-10115",
+          "name": "Geometry",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Code",
+          "x": 0.35759209344115006,
+          "y": 0.6097560975609756,
+          "uniqueID": "id-10116",
+          "ioValues": [
+            {
+              "name": "point1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "point2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "interpreterVersion": 1,
+          "code": "/**\n * Calculates the Euclidean distance between two points.\n */\nfunction run(\n  point1: Assembly | undefined = undefined,\n  point2: Assembly | undefined = undefined,\n): string {\n  console.log(point1)\n  if (!point1 || !point2) {\n    return \"Please connect two points to calculate distance\";\n  }\n\n  try {\n    // Calculate Euclidean distance between two points\n    const dx = point2[0] - point1[0];\n    const dy = point2[1] - point1[1];\n    const dz = point2[2] - point1[2];\n    const distance = Math.sqrt(dx * dx + dy * dy + dz * dz);\n    console.log(distance)\n    return `Dist: ${distance.toFixed(2)}`;\n  } catch (e) {\n    return `Error calculating distance: ${String(e)}`;\n  }\n}\n",
+          "compiledCode": "\"use strict\";\n/**\n * Calculates the Euclidean distance between two points.\n */\nfunction run(point1 = undefined, point2 = undefined) {\n    console.log(point1);\n    if (!point1 || !point2) {\n        return \"Please connect two points to calculate distance\";\n    }\n    try {\n        // Calculate Euclidean distance between two points\n        const dx = point2[0] - point1[0];\n        const dy = point2[1] - point1[1];\n        const dz = point2[2] - point1[2];\n        const distance = Math.sqrt(dx * dx + dy * dy + dz * dz);\n        console.log(distance);\n        return `Dist: ${distance.toFixed(2)}`;\n    }\n    catch (e) {\n        return `Error calculating distance: ${String(e)}`;\n    }\n}\n"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.3387241689128482,
+          "y": 0.1798780487804878,
+          "uniqueID": "id-10117",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.4663072776280323,
+          "y": 0.2804878048780488,
+          "uniqueID": "id-10118",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "startPosition",
+          "ap1ID": "id-10112",
+          "ap2ID": "id-10114"
+        },
+        {
+          "ap2Name": "point1",
+          "ap1ID": "id-10112",
+          "ap2ID": "id-10116"
+        },
+        {
+          "ap2Name": "endPosition",
+          "ap1ID": "id-10113",
+          "ap2ID": "id-10114"
+        },
+        {
+          "ap2Name": "point2",
+          "ap1ID": "id-10113",
+          "ap2ID": "id-10116"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-10114",
+          "ap2ID": "id-10111"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10115",
+          "ap2ID": "id-10114"
+        },
+        {
+          "ap2Name": "text",
+          "ap1ID": "id-10116",
+          "ap2ID": "id-10114"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10117",
+          "ap2ID": "id-10118"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-06-01T10:23:39.233Z",
+        "privateRepo": false,
+        "repoName": "Dimension_Label",
+        "dateCreated": "2026-05-12T14:38:48Z",
+        "readMe": "https://raw.githubusercontent.com/alzatin/Dimension_Label/master/README.md?sanitize=true",
+        "yyyy": 2026,
+        "topMoleculeID": "id-9516",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Dimension_Label",
+        "topics": [
+          "abundance-tool",
+          "label",
+          "dimension"
+        ],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739761",
+        "ranking": 0,
+        "searchField": "dimension_label alzatin  abundance-tool label dimension",
+        "owner": "alzatin",
+        "description": "",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Dimension_Label/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Dimension_Label/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1780321048072
     }
   ],
   "allConnectors": [
@@ -4110,6 +4332,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6115",
       "ap2ID": "id-9510"
+    },
+    {
+      "ap2Name": "Geometry",
+      "ap1ID": "id-6127",
+      "ap2ID": "id-10119"
     },
     {
       "ap2Name": "Shape 12",
